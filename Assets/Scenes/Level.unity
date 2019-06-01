@@ -713,6 +713,42 @@ PrefabInstance:
       propertyPath: deathFX
       value: 
       objectReference: {fileID: 7896545819266184014}
+    - target: {fileID: 7160022190484263932, guid: 0478b1e28fd9831458b0f051b9d2ad8b,
+        type: 3}
+      propertyPath: m_Name
+      value: Bullets Right
+      objectReference: {fileID: 0}
+    - target: {fileID: 7160022190484263935, guid: 0478b1e28fd9831458b0f051b9d2ad8b,
+        type: 3}
+      propertyPath: CollisionModule.enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7160022190484263935, guid: 0478b1e28fd9831458b0f051b9d2ad8b,
+        type: 3}
+      propertyPath: CollisionModule.type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7160022190484263935, guid: 0478b1e28fd9831458b0f051b9d2ad8b,
+        type: 3}
+      propertyPath: CollisionModule.collisionMessages
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1818141178, guid: 0478b1e28fd9831458b0f051b9d2ad8b, type: 3}
+      propertyPath: m_Name
+      value: Bullets Left
+      objectReference: {fileID: 0}
+    - target: {fileID: 1818141177, guid: 0478b1e28fd9831458b0f051b9d2ad8b, type: 3}
+      propertyPath: CollisionModule.enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1818141177, guid: 0478b1e28fd9831458b0f051b9d2ad8b, type: 3}
+      propertyPath: CollisionModule.type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1818141177, guid: 0478b1e28fd9831458b0f051b9d2ad8b, type: 3}
+      propertyPath: CollisionModule.collisionMessages
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7896545819266184014, guid: 0478b1e28fd9831458b0f051b9d2ad8b,
         type: 3}
       propertyPath: m_IsActive
@@ -835,11 +871,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2147351318}
     m_Modifications:
-    - target: {fileID: -3885671599733762022, guid: e14d375f5a36551479fc2f172353b1ba,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 1090395654553690, guid: e14d375f5a36551479fc2f172353b1ba, type: 3}
       propertyPath: m_Name
       value: Ship_01 (6)

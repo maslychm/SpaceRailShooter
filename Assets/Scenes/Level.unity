@@ -979,7 +979,7 @@ PrefabInstance:
     - target: {fileID: 7160022190484263932, guid: 0478b1e28fd9831458b0f051b9d2ad8b,
         type: 3}
       propertyPath: m_Name
-      value: Bullets Right
+      value: Gun Right
       objectReference: {fileID: 0}
     - target: {fileID: 7160022190484263935, guid: 0478b1e28fd9831458b0f051b9d2ad8b,
         type: 3}
@@ -998,7 +998,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1818141178, guid: 0478b1e28fd9831458b0f051b9d2ad8b, type: 3}
       propertyPath: m_Name
-      value: Bullets Left
+      value: Gun Left
       objectReference: {fileID: 0}
     - target: {fileID: 1818141177, guid: 0478b1e28fd9831458b0f051b9d2ad8b, type: 3}
       propertyPath: CollisionModule.enabled
@@ -1032,6 +1032,21 @@ PrefabInstance:
       propertyPath: m_Volume
       value: 0.2
       objectReference: {fileID: 0}
+    - target: {fileID: 5056519816279599724, guid: 0478b1e28fd9831458b0f051b9d2ad8b,
+        type: 3}
+      propertyPath: guns.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5056519816279599724, guid: 0478b1e28fd9831458b0f051b9d2ad8b,
+        type: 3}
+      propertyPath: guns.Array.data[0]
+      value: 
+      objectReference: {fileID: 1468034386}
+    - target: {fileID: 5056519816279599724, guid: 0478b1e28fd9831458b0f051b9d2ad8b,
+        type: 3}
+      propertyPath: guns.Array.data[1]
+      value: 
+      objectReference: {fileID: 2000078832}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0478b1e28fd9831458b0f051b9d2ad8b, type: 3}
 --- !u!1001 &1101048363
@@ -1307,6 +1322,12 @@ Transform:
   m_Father: {fileID: 1890072442}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1468034386 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7160022190484263932, guid: 0478b1e28fd9831458b0f051b9d2ad8b,
+    type: 3}
+  m_PrefabInstance: {fileID: 1016816654}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1476018280
 GameObject:
   m_ObjectHideFlags: 0
@@ -1599,6 +1620,12 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4232234352724882, guid: e14d375f5a36551479fc2f172353b1ba,
     type: 3}
   m_PrefabInstance: {fileID: 49978042}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2000078832 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1818141178, guid: 0478b1e28fd9831458b0f051b9d2ad8b,
+    type: 3}
+  m_PrefabInstance: {fileID: 1016816654}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &2107627770 stripped
 Transform:
